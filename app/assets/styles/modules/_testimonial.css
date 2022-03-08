@@ -4,8 +4,8 @@
   margin-bottom: 98px;
 
   @mixin atLarge {
-    padding: 0 1.8125rem 1px 1.8125rem;
     margin-bottom: 0;
+    padding: 0 1.8125rem 1px 1.8125rem;
   }
 
   &__photo {
@@ -35,7 +35,7 @@
     margin: 0.25rem 0 1rem 0;
   }
 
-  &__last {
+  &--last {
     margin-bottom: 0;
   }
 }
