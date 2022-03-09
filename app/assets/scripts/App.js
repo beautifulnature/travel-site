@@ -1,8 +1,10 @@
 import '../styles/styles.css'
 // import Person from './modules/Person';
 import MobileMenu from './modules/MobileMenu'
-import RevealOnScroll from './modules/reveal-on-scroll'
+import RevealOnScroll from './modules/RevealOnScroll'
+import StickyHeader from './modules/StickyHeader'
 
+let stickyHeader = new StickyHeader();
 
 let mobileMenu = new MobileMenu();
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
