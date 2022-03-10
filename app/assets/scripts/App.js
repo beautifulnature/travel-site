@@ -5,8 +5,10 @@ import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
 // import Modal from './modules/Modal'
+import ClientArea from './modules/ClientArea'
 
-console.log('hi');
+// console.log('hi');
+new ClientArea();
 new StickyHeader();
 new MobileMenu();
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
