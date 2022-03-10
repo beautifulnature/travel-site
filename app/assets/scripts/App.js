@@ -6,8 +6,8 @@ import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
 // import Modal from './modules/Modal'
 
+console.log('hi');
 new StickyHeader();
-
 new MobileMenu();
 new RevealOnScroll(document.querySelectorAll('.feature-item'), 75);
 new RevealOnScroll(document.querySelectorAll('.testimonial'), 60);
